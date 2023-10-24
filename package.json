@@ -1,18 +1,14 @@
 {
-    "name": "com.ldk.gameanalyticssdk",
-    "version": "0.0.1",
-    "displayName": "LDK GameAnalytics ILRD SDK",
-    "description": "GameAnalytics ILRD SDK for Unity",
+    "name": "com.gameanalytics.sdk",
+    "version": "7.7.1",
+    "displayName": "GameAnalytics",
+    "description": "GameAnalytics SDK for Unity",
     "unity": "2021.3",
     "icon": ".icon.png",
-    "keywords": [ "gameanalytics", "ilrd", "sdk" ],
+    "keywords": [ "gameanalytics", "sdk" ],
     "author": {
         "name": "Ludu",
         "email": "info@luduarts.com",
         "url": "https://luduarts.com"
-    },
-    "dependencies": {
-        "com.google.external-dependency-manager": "1.2.177",
-        "com.gameanalytics.sdk": "7.3.24"
-      }
+    }
 }
