@@ -1,0 +1,17 @@
+{
+    "name": "com.ldk.gameanalyticssdk",
+    "version": "0.0.1",
+    "displayName": "LDK GameAnalytics SDK",
+    "description": "GameAnalytics SDK for Unity. SDK Version: 7.7.1",
+    "unity": "2021.3",
+    "icon": ".icon.png",
+    "keywords": [ "gameanalytics", "sdk" ],
+    "author": {
+        "name": "Ludu",
+        "email": "info@luduarts.com",
+        "url": "https://luduarts.com"
+    },
+    "dependencies": {
+        "com.google.external-dependency-manager": "1.2.177"
+      }
+}
