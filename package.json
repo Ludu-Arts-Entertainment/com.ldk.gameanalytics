@@ -1,5 +1,5 @@
 {
-    "name": "com.gameanalytics.sdk",
+    "name": "com.ldk.gameanalytics",
     "version": "7.7.1",
     "displayName": "GameAnalytics",
     "description": "GameAnalytics SDK for Unity",
