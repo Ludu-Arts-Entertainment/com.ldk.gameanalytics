@@ -1,7 +1,9 @@
 {
     "name": "GameAnalyticsSDK",
     "rootNamespace": "GameAnalyticsSDK",
-    "references": [],
+    "references": [
+        "MaxSdk.Scripts"
+    ],
     "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,

@@ -5,7 +5,7 @@ using GameAnalyticsSDK.Utilities;
 
 public class GAMaxIntegration
 {
-#if gameanalytics_max_enabled && !(UNITY_EDITOR)
+#if gameanalytics_max_enabled && !UNITY_EDITOR && MaxSdk_Enabled 
     private static bool _subscribed = false;
 
     [Serializable]
@@ -37,7 +37,7 @@ public class GAMaxIntegration
 
     public static void ListenForImpressions(Action<string> callback)
     {
-#if gameanalytics_max_enabled && !(UNITY_EDITOR)
+#if gameanalytics_max_enabled && !UNITY_EDITOR && MaxSdk_Enabled
         if (_subscribed)
         {
             Debug.Log("Ignoring duplicate gameanalytics subscription");
