@@ -1,6 +1,6 @@
 {
     "name": "GameAnalyticsSDK",
-    "rootNamespace": "GameAnalyticsSDK",
+    "rootNamespace": "",
     "references": [],
     "includePlatforms": [],
     "excludePlatforms": [],
