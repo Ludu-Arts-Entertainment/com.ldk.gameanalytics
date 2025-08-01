@@ -1,6 +1,63 @@
 Changelog
 ---------
 <!--(CHANGELOG_TOP)-->
+**7.10.5**
+* Android: fixed a bug regarding OAID logic
+* Android: improved internal user id logic
+
+**7.10.4**
+* added fix for bug with getting user id on win32/mac/android
+* added fix for tvOS platform
+* fixed warning for unsupported platform
+* removed unused variables
+* repair Max SDK integration
+
+**7.10.3**
+* removed user sign-up form
+* updated GATool links
+* updated documentation links
+* updated login requests
+* update game and organization requests
+
+**7.10.2**
+* fixed legacy FPS warning if events were sent before sdk was initialized:fixed webgl string marshaling bug
+
+**7.10.1**
+* fixed error event validation on iOS
+
+**7.10.0**
+* added checks to safely upgrade from 7.6.0 , 7.6.1, 7.7.0 without having any impact on metrics for Android
+
+* fixed impression callback json for Digital Turbine
+* removed deprecated functions from webgl
+* fixed warnings for android
+
+**7.10.0-beta**
+* added checks to safely upgrade from 7.6.0 , 7.6.1, 7.7.0 without having any impact on metrics for Android
+* fixed impression callback json for Digital Turbine
+
+**7.9.1**
+* consent status is now tracked correctly on iOS
+* bug fix for fps tracking on iOS
+* updated ironsource impression listener
+
+**7.9.0**
+* added the iOS Privacy Manifest
+* fixed app boot time measurement for Android & iOS
+
+**7.8.0**
+* added optional session performance metrics collection
+* added optional app boot-time metric collection
+* fixed a warning when submitting FPS before initializing the SDK
+* added ad event support for webgl
+
+**7.8.0-beta**
+* beta versionadded optional session performance metrics collection
+* added optional app boot-time metric collection
+
+**7.7.2**
+* added optional external user id:increased resource currency limit from 20 to 50
+
 **7.7.1**
 * fixed a bug in the android user-id generation
 
